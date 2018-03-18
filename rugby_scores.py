@@ -38,7 +38,7 @@ for i in range(max_penalty+1):
 		for s in range (max_converted+1):
 			# print 'converted tries', s      # Only needed for spotting errors
 			if 3*int(i) + 5*int(t) + 7*int(s) == int(score) and score > 0:    # AKA the rugby equation! 
-				#print'Converted Tries:', s, 'Tries:', t, 'Penalties: (or Drop Goals):', i 
+				print'Converted Tries:', s, 'Tries:', t, 'Penalties: (or Drop Goals):', i 
 				possibilities = possibilities+1                 # Keeping track of the different valid solutions to the rugby equation
 if possibilities == 0:
 	print score, 'is not a valid score'
