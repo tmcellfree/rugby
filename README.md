@@ -1,16 +1,24 @@
 # Script to calculate trys/conversions/penalties from a rugby match
 
 ### In rugby, joining a game late makes it tough to tell what 'type' of scores happened
- It could have been a try (5 points), converted try (7 point) or a penatly/drop goal (3 points), or a combination of these!
+ 
+It could have been a try (5 points), converted try (7 point) or a penalty/drop goal (3 points), or a combination of these!
 
 Luckily there is a rugby equation to solve this problem!
+
+<dl>
+  <dt>The Rugby Equation!</dt>
+</dl>
+
 `5x + 7y + 3z = score`
 
 where x = unconverted tries, y = converted tries, z = penalties (or drop goals), score = user input
 
-x, y, z, score are positive integers
+x, y, z, score are positive integers.
 
-### Using this script you just enter your score and it will tell you the possible combinations! 
+<dl>
+  <dt>Using this script you just enter your score and it will tell you the possible combinations!</dt>
+</dl>
 
 Since there are three different score types it is interesting to look at the possible combinations of scores available for each score. The graph below shows the different combinations of score type (try/converted/penalty) for each score. 
 
@@ -44,7 +52,8 @@ Converted Tries: 0 Tries: 3 Penalties: (or Drop Goals): 5
 Converted Tries: 1 Tries: 1 Penalties: (or Drop Goals): 6
 Converted Tries: 0 Tries: 0 Penalties: (or Drop Goals): 10
 Total of 7 possible combinations!
-Enjoy the game!```
+Enjoy the game!
+```
 
 
 That's it! If you have any comments or suggestions let me know! 
